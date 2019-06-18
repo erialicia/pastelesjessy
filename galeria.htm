@@ -1,0 +1,182 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>galería</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<style type="text/css">
+<!--
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-color: #F6F;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+/* ~~ Selectores de elemento/etiqueta ~~ */
+ul, ol, dl { /* Debido a las diferencias existentes entre los navegadores, es recomendable no añadir relleno ni márgenes en las listas. Para lograr coherencia, puede especificar las cantidades deseadas aquí o en los elementos de lista (LI, DT, DD) que contienen. Recuerde que lo que haga aquí se aplicará en cascada en la lista .nav, a no ser que escriba un selector más específico. */
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 /* la eliminación del margen superior resuelve un problema que origina que los márgenes escapen de la etiqueta div contenedora. El margen inferior restante lo mantendrá separado de los elementos de que le sigan. */
+	padding-right: 15px;
+	padding-left: 15px; /* la adición de relleno a los lados del elemento dentro de las divs, en lugar de en las divs propiamente dichas, elimina todas las matemáticas de modelo de cuadro. Una div anidada con relleno lateral también puede usarse como método alternativo. */
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	text-align: left;
+}
+a img { /* este selector elimina el borde azul predeterminado que se muestra en algunos navegadores alrededor de una imagen cuando está rodeada por un vínculo */
+	border: none;
+	background-position: left center;
+}
+/* ~~ La aplicación de estilo a los vínculos del sitio debe permanecer en este orden (incluido el grupo de selectores que crea el efecto hover -paso por encima-). ~~ */
+a:link {
+	color: #FF00CC;
+	text-decoration: underline; /* a no ser que aplique estilos a los vínculos para que tengan un aspecto muy exclusivo, es recomendable proporcionar subrayados para facilitar una identificación visual rápida */
+}
+a:visited {
+	color: #6E6C64;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { /* este grupo de selectores proporcionará a un usuario que navegue mediante el teclado la misma experiencia de hover (paso por encima) que experimenta un usuario que emplea un ratón. */
+	text-decoration: none;
+}
+
+/* ~~ este contenedor de anchura fija rodea a las demás divs ~~ */
+.container {
+	width: 960px;
+	background-color: #CCF;
+	margin: 0 auto; /* el valor automático de los lados, unido a la anchura, centra el diseño */
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-align: right;
+}
+
+/* ~~ no se asigna una anchura al encabezado. Se extenderá por toda la anchura del diseño. Contiene un marcador de posición de imagen que debe sustituirse por su propio logotipo vinculado ~~ */
+.header {
+	background-color: #FFFFFF;
+	background-image: url(fondo2.jpg);
+	background-repeat: repeat-x;
+	background-position: center top;
+	text-align: center;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: xx-large;
+	color: #000;
+	width: auto;
+	padding-top: 100px;
+}
+
+/* ~~ Esta es la información de diseño. ~~ 
+
+1) El relleno sólo se sitúa en la parte superior y/o inferior de la div. Los elementos situados dentro de esta div tienen relleno a los lados. Esto le ahorra las "matemáticas de modelo de cuadro". Recuerde que si añade relleno o borde lateral a la div propiamente dicha, éste se añadirá a la anchura que defina para crear la anchura *total*. También puede optar por eliminar el relleno del elemento en la div y colocar una segunda div dentro de ésta sin anchura y el relleno necesario para el diseño deseado.
+
+*/
+
+.content {
+	padding: 10px 0;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	text-align: left;
+}
+
+/* ~~ El pie de página ~~ */
+.footer {
+	padding: 10px 0;
+	background-color: #CC99FF;
+	text-align: center;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 24px;
+}
+
+/* ~~ clases float/clear varias ~~ */
+.fltrt {  /* esta clase puede utilizarse para que un elemento flote en la parte derecha de la página. El elemento flotante debe preceder al elemento junto al que debe aparecer en la página. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* esta clase puede utilizarse para que un elemento flote en la parte izquierda de la página. El elemento flotante debe preceder al elemento junto al que debe aparecer en la página. */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* esta clase puede situarse en una <br /> o div vacía como elemento final tras la última div flotante (dentro de #container) si #footer se elimina o se saca fuera de #container */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+.container .content p #fotogale {
+	float: right;
+}
+-->
+</style>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onload="MM_preloadImages('IMG-20190507-WA0019.jpg','IMG-20190507-WA0027.jpg','IMG-20190507-WA0026.jpg','IMG-20190507-WA0029.jpg','IMG-20190507-WA0023.jpg','IMG-20190507-WA0020.jpg')">
+
+<div class="container">
+  <div class="header"><!-- end .header -->Galería</div>
+  <div class="content" onmouseover="MM_swapImage('sinnombre &lt;img&gt;','','IMG-20190507-WA0019.jpg',1)">
+    <h1>Estos son algunos de los trabajos que hemos realizado<br />
+    </h1>
+    <p><img src="IMG-20190507-WA0019.jpg" alt="i1" name="fotogale" width="284" height="485" id="fotogale" /></p>
+    <div onmouseover="MM_swapImage('fotogale','','IMG-20190507-WA0026.jpg',1)">
+      <p onmouseover="MM_swapImage('sinnombre &lt;img&gt;','','IMG-20190507-WA0027.jpg',1);MM_swapImage('sinnombre &lt;img&gt;','','IMG-20190507-WA0019.jpg',1)">Pastel de niña</p>
+      <p onmouseover="MM_swapImage('sinnombre &lt;img&gt;','','IMG-20190507-WA0027.jpg',1);MM_swapImage('sinnombre &lt;img&gt;','','IMG-20190507-WA0019.jpg',1)">tema de l sirenita, relleno pan de vainilla con cajeta, nuez y queso.</p>
+    </div>
+    <p onmouseover="MM_swapImage('sinnombre &lt;img&gt;','','IMG-20190507-WA0027.jpg',1);MM_swapImage('sinnombre &lt;img&gt;','','IMG-20190507-WA0019.jpg',1)">&nbsp;</p>
+    <div onmouseover="MM_swapImage('fotogale','','IMG-20190507-WA0027.jpg',1)">
+      <p>Pastel de baby shower </p>
+      <p>tema de abejas, relleno pan de vainilla con fruta mixta</p>
+      <p>&nbsp;</p>
+    </div>
+    <div onmouseover="MM_swapImage('fotogale','','IMG-20190507-WA0029.jpg',1)">
+      <p>Pastel de niño </p>
+      <p>tema de fortnite, relleno pan de chocolate con oreo </p>
+    </div>
+    <p>&nbsp;</p>
+    <div onmouseover="MM_swapImage('fotogale','','IMG-20190507-WA0023.jpg',1)">
+      <p>Pastel de XV años color rose gold</p>
+      <p>relleno pan de chocolate y vainilla con queso</p>
+    </div>
+    <p>&nbsp;</p>
+    <div onmouseover="MM_swapImage('fotogale','','IMG-20190507-WA0020.jpg',1)">
+      <p>Pastel de boda desnudo con fruta</p>
+      <p> relleno pan de vainilla y queso </p>
+    </div>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p class="content"><a href="proyecto.html">*i</a><a href="proyecto.html">nicio*</a></p>
+  </div>
+  <div class="footer">
+    <p> Alicia Camacho, Erika Ballado www.facebook.com/pastelesjessy.tj</p>
+  <!-- end .footer --></div>
+  <!-- end .container --></div>
+</body>
+</html>
